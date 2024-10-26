@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://store-images.s-microsoft.com/image/apps.2005.14057826194083709.67242c47-4fd7-4f1a-9dd6-5d93f6cc10df.f80f14c0-72ab-46ff-86cd-9d801c8e04e8?mode=scale&q=90&h=300&w=300">
+    <style>
+      
+        .img-container {
+            position: absolute;
+            top: 0;
+            right: 0;
+            margin-top: 300px;
+            margin-right: 150px;
+        }
+      
+        .hide {
+            display: none;
+        }
+    </style>
+</head>
+<body >
+    <main>
+        <h1 style="text-align: center; font-family:cursive; font-size: 50px; color: white; text-decoration: underline;">Tic-Tac-Toe</h1>
+        <p style="margin-left: 900px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 30px; color: white; text-decoration:underline">Play with us</p>
+        <div class="container">
+            <div class="game">
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+            </div>
+        </div>
+        <button id="reset" onclick="newgame()">New Game</button>
+    </main>
+    
+    <div class="img-container hide"> 
+        <img src="https://i.pinimg.com/originals/02/1a/42/021a425021d63b351b10520c8e8bcbca.gif" alt="Tic Tac Toe GIF" height="200px" style="border-radius: 20%;">
+    </div>
+
+   
+    <div id="winner" class="hide" style="color: white; margin-left: 800px; font-family: fantasy; font-size: 7vmin;">
+        <p id="msg"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+

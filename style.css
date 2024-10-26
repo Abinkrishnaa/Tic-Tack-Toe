@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://cache.desktopnexus.com/thumbseg/1242/1242295-bigthumbnail.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 63vmin;
+    width: 60vmin;
+    flex-wrap: wrap;
+    gap: 1.5vmin;
+}
+
+
+.box{
+    width: 18vmin;
+    height: 18vmin;
+    background-image: url(https://media.istockphoto.com/id/488964620/video/underwater-sun-rays-in-the-ocean.jpg?s=640x640&k=20&c=70R1hN64sZpmjZBWy57N6cLCgetUgptVLvP6c9qyrxI=);
+    color: rgb(224, 241, 172);
+    border: 3px solid black;
+   border-radius: 20%;
+   font-size: 9vmin;
+    cursor: pointer;
+}
+
+#reset{
+background-image: url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTEyL3Jhd3BpeGVsb2ZmaWNlM19hYnN0cmFjdF9nZW9tZXRyaWNfZmx1aWRfYmxhY2tfY29sb3JfZ3JhZGllbnRfYl9mNWYxMTRjMC01MTVlLTRkZTctYjAxMi05ZDFkODljYzEyODBfMS5qcGc.jpg");
+width: 20vmin;
+height: 7vmin;
+border-radius: 8%;
+font-size: 3vmin;
+color: rgb(255, 254, 254);
+font-weight: bolder;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hide{
+    display: none;
+}
